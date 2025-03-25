@@ -10,6 +10,7 @@ class Solution:
             for j in range(len(matrix[0])):
                 if matrix[i][j] == 0 :
                     zeros.append((i,j))
+                
         
         for element in zeros : 
             for i in range(len(matrix)):
